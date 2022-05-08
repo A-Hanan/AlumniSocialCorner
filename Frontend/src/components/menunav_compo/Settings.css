@@ -1,0 +1,19 @@
+.change__password__container {
+  padding: 20px;
+  margin-top: 5vh;
+}
+.change__password__container > input {
+  margin-top: 2vh;
+  width: 40vw;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+.change__password__container > input:focus {
+  outline: none;
+}
+.change__password__container .error__para {
+  color: red;
+}
+.change__password__container button {
+  margin-top: 3vh;
+}

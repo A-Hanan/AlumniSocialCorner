@@ -1,0 +1,92 @@
+/********* professional step  *******************/
+.experience__and__education .group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5vh;
+}
+.experience__and__education .group > label {
+  font-family: var(--heading-font);
+  color: gray;
+  font-size: 0.9rem;
+}
+.experience__and__education .group > input {
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+  font-family: var(--body-font);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.experience__and__education .group > input:focus {
+  outline: none;
+}
+
+.experience__and__education .group > textarea {
+  padding: 5px;
+  border: 1px solid lightgray;
+  font-size: 0.9rem;
+}
+.experience__and__education .group > textarea:focus {
+  outline: none;
+}
+
+.experience__and__education .dynamic__subgroup {
+  /* border: 1px solid lightgray; */
+  padding: 15px;
+  position: relative;
+  margin-top: 3vh;
+  width: 50vw;
+}
+.experience__and__education .dynamic__subgroup__heading {
+  font-family: var(--heading-font);
+  font-size: 1.3rem;
+  margin-bottom: 5vh;
+}
+.experience__and__education .year-picker .header {
+  padding: 0px;
+}
+.experience__and__education .year-picker {
+  z-index: 1;
+}
+.experience__and__education .year-picker a {
+  text-decoration: none;
+  color: gray;
+  font-family: var(--body-font);
+}
+.experience__and__education .year-picker .selected-year {
+  color: white;
+  background-color: var(--light-blue);
+}
+.experience__and__education .year-picker .year-input:focus {
+  border: none;
+  outline: none;
+}
+.experience__and__education .add__more__btn {
+  padding: 5px 25px;
+  border: none;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+.experience__and__education .add__more__btn:active {
+  transform: scale(1.1);
+}
+
+.experience__and__education .dynamic__subgroup .delete__subgroup__btn {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  color: red;
+  top: 0;
+}
+.experience__and__education .degree__span__group {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 20%;
+}
+.experience__and__education .save__btn {
+}
+.experience__and__education .error__para {
+  color: red;
+  font-size: 0.8rem;
+}
+/*******************/

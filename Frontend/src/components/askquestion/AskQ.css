@@ -1,0 +1,24 @@
+.image__container {
+  width: 60vw;
+  height: 40vh;
+  padding: 20px;
+}
+.image__container > img {
+  height: 80%;
+  width: auto;
+}
+.tags__container {
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.tags__container > span {
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 10%;
+}
+.error__para {
+  color: red;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,16 @@
+.rating__wrapper {
+  flex: 4;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
+}
+.rating__stars > span > .MuiSvgIcon-root {
+  color: rgba(0, 0, 0, 0.5) !important;
+  cursor: pointer;
+}
+.rating__stars > span.shine > .MuiSvgIcon-root {
+  color: gold !important;
+}

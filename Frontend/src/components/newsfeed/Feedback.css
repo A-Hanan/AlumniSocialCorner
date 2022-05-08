@@ -1,0 +1,126 @@
+h5 {
+  font-style: normal !important;
+}
+.feeds {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.feeds .question__container {
+  padding: 30px;
+  padding-bottom: 5vh;
+  padding-top: 2vh;
+  width: 55vw;
+}
+.feeds .post-name,
+.answers .post-name {
+  font-style: normal;
+  color: #0000ff;
+}
+.feeds .post-date,
+.answers .post-date {
+  color: gray;
+  font-style: normal;
+}
+.feeds .post-date strong,
+.answers .post-date strong {
+  color: #0000ff;
+}
+.tags,
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  gap: 20px;
+}
+.tags .tag-span,
+.tags .tag-span {
+  border: 1.3px solid gray;
+  background-color: #f8f7fb;
+  color: gray;
+  padding: 3px 7px;
+}
+.feeds .question,
+.answers .question {
+  margin-top: 3vh;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.feeds .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+}
+.answers .description {
+}
+.answers .answer__container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.answers .answer__container .ans {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.answers .answer__container .ans h1 {
+  font-size: 1.1rem;
+}
+.question__image__container {
+  width: 30vw;
+  height: 30vh;
+  margin-bottom: 3vh;
+}
+.question__image__container > img {
+  height: 20vh;
+  width: auto;
+}
+
+ul.pagination {
+  padding-top: 5vh;
+  justify-content: center;
+}
+a.page-link {
+  color: black !important;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: black !important;
+  border-color: black !important;
+  background-color: blue !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.page-item.active {
+  box-shadow: none !important;
+  border: none !important;
+}
+.page-item:hover .page-link {
+  background-color: rgba(57, 131, 181, 0.2);
+}
+ul.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.reply__btn {
+  border: 1px solid gray;
+  color: gray;
+  width: max-content;
+  margin-left: 3vw;
+}
+.reply__btn > .MuiSvgIcon-root {
+  color: black;
+}
+.view__reply__btn {
+  color: gray;
+  width: max-content;
+  margin-left: 3vw;
+  color: black;
+}

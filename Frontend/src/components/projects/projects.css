@@ -1,0 +1,78 @@
+.btn-link{
+    text-align: center;
+    width: 160px;
+    color: white;
+    border-radius: 20px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px 14px;
+    border: 1px solid black;
+    margin-left: auto;
+    display: block;
+    margin-right: 3px;
+    
+}
+.btn-link:hover{
+    color: white;
+    background-color: brown;
+}
+.btn-projects{
+    color: black;
+    background-color: rgb(238, 238, 233);
+    text-decoration: none;
+    padding: 5px 14px;
+    border: 2px solid rgb(162, 162, 162);
+    margin-left: 5px;
+}
+.text-area{
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(240, 240, 245);
+    margin-bottom: 10px;
+}
+.title, .date{
+    font-style: italic;
+    color: blue;
+}
+.text-feild{
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid gray;
+    background-color: rgb(240, 240, 245);
+}
+.give-rating{
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: rgb(240, 240, 245);
+}
+.give-rating button{
+    margin-top: 5px;
+}
+/* fyps icon */
+.container-col{
+    margin-top: 15px;
+    padding: 25px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+}
+.icons-fyps{
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    color: blue;
+}
+.title-fyps{
+    text-align: center;
+    color: blue;
+}
+.stickbtn{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}

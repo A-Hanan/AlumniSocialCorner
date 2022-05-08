@@ -1,0 +1,217 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.sidebar-login {
+  height: 100vh;
+  background-color: blue;
+}
+.login-title h3 {
+  color: black;
+  font-weight: 700;
+}
+.btn {
+  background-color: blue;
+  border: 1px solid black;
+  margin: auto;
+  display: block;
+  color: white;
+  padding: 6px 21px 6px 21px;
+  transition: all 0.5s;
+  border-radius: 20px;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+.form input {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.forgot-password a {
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+}
+.forgot-password a:hover {
+  color: blue;
+}
+.or-span {
+  border-radius: 20px;
+  border: 3px solid gray;
+  padding: 5px 7px;
+}
+.fb-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #3b5998;
+  color: white;
+}
+.fb-btn:hover {
+  background-color: #1248bd;
+  color: white;
+}
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #dd4b39;
+  color: white;
+}
+.google-btn:hover {
+  background-color: #f13017;
+  color: white;
+}
+.logo-home {
+  width: 90px;
+  height: 90px;
+}
+.logo-home {
+  width: 90px;
+  height: 30px;
+}
+.menu-nav span {
+  font-size: 20px;
+  padding: 5px 7px;
+  border-radius: 40px;
+}
+.sidebar {
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: rgb(230, 229, 229);
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+.sidebar a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(9, 9, 9);
+}
+.sidebar-responsive {
+  width: 100%;
+  background-color: rgb(230, 229, 229);
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.sidebar-responsive a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(9, 9, 9);
+}
+.toggle-side {
+  display: none;
+}
+.toggle-side button {
+  border: none;
+  background-color: rgba(165, 42, 42, 0);
+}
+@media screen and (max-width: 768px) {
+  .toggle-side {
+    display: inline;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+
+/* post css */
+
+.post-name,
+.post-date {
+  color: #1248bd;
+  font-style: italic;
+}
+.language button {
+  border: 2px solid rgb(145, 144, 144);
+  background-color: #f5f3f3;
+  padding: 3px 10px;
+  color: rgb(145, 144, 144);
+}
+.answer {
+  padding: 5px;
+  border: 2px solid rgb(145, 144, 144);
+  margin-top: 14px;
+  background-color: #f5f3f3;
+  color: rgb(145, 144, 144);
+}
+.answers-status-btn {
+  border: 2px solid rgb(145, 144, 144);
+  background-color: #ffffff;
+  padding: 3px 10px;
+  color: rgb(145, 144, 144);
+}
+.answer-btn {
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 4px 10px;
+  color: white;
+  background-color: blue;
+}
+.answer-btn:hover {
+  color: white;
+  background-color: rgb(41, 41, 41);
+  border: 2px solid rgb(128, 128, 128);
+}
+.text-center {
+  color: black;
+}
+#click-to-see {
+  color: blue;
+}
+
+#projectlink {
+  padding: 10px;
+  height: 43px;
+  width: 100%;
+  background-color: rgb(240, 240, 245);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.selector {
+  border: solid 1px black;
+  border-radius: 20px;
+  height: 45px;
+  margin-top: 15px;
+  padding-top: 0%;
+  width: 48%;
+  margin-left: 7px;
+}
+.gender-class {
+  padding-bottom: 20px;
+  border: none;
+  border-color: white;
+  background-color: white;
+}
+.tags {
+  color: #1248bd;
+}
+
+.signup__error__message {
+  color: red;
+  font-size: 0.7rem;
+  padding-left: 10px;
+}
+.facebook__login__btn {
+  opacity: 0;
+}
