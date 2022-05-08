@@ -2,7 +2,7 @@
 Download zip folder 
 or 
 use foolowing command
-git clone 
+git clone https://github.com/A-Hanan/AlumniSocialCorner.git
 
 For starting backend on localhost
 
